@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Upload to Jurando repo",
+  "description": "Python > PHP",
+  "version": "0.1",
+  "permissions": [
+    "contextMenus"
+  ],
+  "host_permissions": [    
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "kona-small.png",
+    "48": "kona-medium.png",
+    "128": "kona-large.png"
+  }
+}
